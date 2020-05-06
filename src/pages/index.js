@@ -12,7 +12,6 @@ export default class index extends Component {
         <p>
           Need a developer? <Link to="/contact">Contact me</Link>
         </p>
-        <p> My blog is right <Link to="/blog">Here</Link></p>
       </Layout>
     )
   }
