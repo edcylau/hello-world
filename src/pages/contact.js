@@ -9,7 +9,6 @@ const ContactPage = (props) => {
       <h1>Contact</h1>
       <p><strong>Reach me via email</strong> imedmundlcya@gmail.com</p>
       <p>Reach me via <strong><a href="https://twitter.com/explore" target="_blank" rel="noopener noreferrer">Twitter</a></strong></p>
-      <Link to="/">Back</Link>
     </Layout>
   )
 }

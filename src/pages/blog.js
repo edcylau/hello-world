@@ -9,7 +9,6 @@ const BlogPage = props => {
     <Layout>
       <h1>Blog</h1>
       <p>Posts will be shown up here later on</p>
-      <Link to="/">Back</Link>
     </Layout>
   )
 }
