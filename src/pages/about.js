@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 
@@ -12,7 +12,6 @@ const AboutPage = props => {
       <p>
         Contact me <Link to="/contact">here</Link>
       </p>
-      <Link to="/">Back</Link>
     </Layout>
   )
 }
