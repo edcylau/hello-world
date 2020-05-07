@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import Head from '../components/head'
+
 
 // styling
 
@@ -46,6 +48,7 @@ const BlogPage = props => {
 
   return (
     <Layout>
+      <Head title="Blog" />
       <h1>Blog</h1>
       <ol className={blogStyles.blogs}>
         {blogs.map(blog => (
