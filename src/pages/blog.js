@@ -7,37 +7,59 @@ import { Link, graphql, useStaticQuery } from "gatsby"
 import blogStyles from './blog.module.scss'
 
 const BlogPage = props => {
+  // MARK DOWN
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     allMarkdownRemark {
+  //       edges {
+  //         node {
+  //           frontmatter {
+  //             title
+  //             date
+  //           }
+  //           fields {
+  //             slug
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+
+  // CONTENTFUL API
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark {
+      allContentfulBlogPost (
+        sort: {
+          fields: publishedDate,
+          order:DESC
+        }
+      ) {
         edges {
           node {
-            frontmatter {
-              title
-              date
-            }
-            fields {
-              slug
-            }
+            title
+            publishedDate(formatString: "Do MMMM, YYYY" )
+            slug
           }
         }
       }
     }
   `)
 
-  const blogs = data.allMarkdownRemark.edges
-
+  // const blogs = data.allMarkdownRemark.edges
+  const blogs = data.allContentfulBlogPost.edges
+  console.log("@@@@",blogs)
   return (
     <Layout>
       <h1>Blog</h1>
       <ol className={blogStyles.blogs}>
         {blogs.map(blog => (
-          <li className={blogStyles.blog} key={blog.node.frontmatter.title}>
-              <Link to={`/blog/${blog.node.fields.slug}`}>
+          <li className={blogStyles.blog} key={blog.node.title}>
+              <Link to={`/blog/${blog.node.slug}`}>
                 <h2>
-                    {blog.node.frontmatter.title}
+                    {blog.node.title}
                 </h2>
-                <p>{blog.node.frontmatter.date}</p>
+                <p>{blog.node.publishedDate}</p>
               </Link>
           </li>
         ))}
