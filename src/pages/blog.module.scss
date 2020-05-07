@@ -1,0 +1,33 @@
+.blogs {
+  list-style-type: none;
+  margin: 0;
+}
+
+.blog {
+  margin: 1rem 0;
+
+  a {
+    text-decoration: none;
+    color: black;
+    background: #f4f4f4;
+    display: block;
+    padding: 1rem;
+  }
+
+  a:hover {
+    color: red;
+    background: #e4e4e4;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    color: #777777;
+    font-size: .8rem;
+    font-style: italic;
+  }
+
+}
+
