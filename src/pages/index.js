@@ -1,20 +1,91 @@
-import React, { Component } from "react"
-import { Link } from "gatsby"
-import Layout from '../components/layout'
-import Head from '../components/head'
+import { graphql } from "gatsby"
+import React from "react"
+import Layout from "../layouts/Layout"
+import Seo from "../components/seo"
+import LandingHero from "../components/Landing/LandingHero"
+import LandingApartments from "../components/Landing/LandingApartments"
+import LandingView from "../components/Landing/LandingView"
+import LandingContact from "../components/Landing/LandingContact"
+import MapContainer from "../components/Landing/LandingMap"
 
-
-export default class index extends Component {
-  render() {
-    return (
-      <Layout>
-        <Head title="Home" />
-        <h1>Hi I'm Edmund</h1>
-        <h2>A fullstack developer Living in Shanghai.</h2>
-        <p>
-          Need a developer? <Link to="/contact">Contact me</Link>
-        </p>
-      </Layout>
-    )
-  }
+const IndexPage = ({ data }) => {
+  return (
+    <Layout>
+      <LandingHero content={data.first} />
+        <LandingApartments data={data.apartments} backgroundColor="white" textColor="themeblack" section="apartments"/>
+        <LandingView data={data.views} textColor="white" section="views" />
+        <LandingApartments data={data.localArea} backgroundColor="white" textColor="themeblack" section="localarea" />
+        <MapContainer />
+       {/*<LandingContact />*/}
+    </Layout>
+  )
 }
+
+export default IndexPage
+
+export const Head = () => <Seo title="The Cheyne Residences" description="13 exquisite one & two bedroom riverside apartments coming 2024" />
+
+export const query = graphql`
+  query LandingQuery {
+    first: contentfulPageHero(title: {eq: "Landing > First"}) {
+      title
+      tagline
+      heroImage {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]
+        )
+      }
+    }
+    apartments:   contentfulPageCarousel(internalTitle: {eq: "Landing > Apartments"}) {
+      description {
+        description
+      }
+      title
+      sliderImage {
+        title
+        gatsbyImageData(
+          layout: CONSTRAINED
+          width: 1200
+          quality: 70
+          placeholder: BLURRED
+          formats: [AUTO,WEBP,AVIF]
+        )
+      }
+    }
+    views: contentfulPageCarousel(internalTitle: {eq: "Landing > Views"}) {
+      description {
+        description
+      }
+      title
+      sliderImage {
+        title
+        gatsbyImageData(
+          layout: CONSTRAINED
+          width: 1200
+          quality: 70
+          placeholder: BLURRED
+          formats: [AUTO,WEBP,AVIF]
+        )
+      }
+    }
+    localArea: contentfulPageCarousel(internalTitle: {eq: "Landing > Local Area"}) {
+      description {
+        description
+      }
+      title
+      sliderImage {
+        title
+        gatsbyImageData(
+          layout: CONSTRAINED
+          width: 1200
+          height: 800
+          quality: 70
+          placeholder: BLURRED
+          formats: [AUTO,WEBP,AVIF]
+        )
+      }
+    }
+  }
+`

@@ -1,0 +1,2159 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "privacyPolicy",
+        "type": "ContentType",
+        "createdAt": "2021-12-29T00:03:36.144Z",
+        "updatedAt": "2021-12-29T00:03:40.522Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:03:40.522Z",
+        "firstPublishedAt": "2021-12-29T00:03:40.522Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Privacy Policy",
+      "description": "Content of privacy policy",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "content",
+          "name": "Content",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "footer",
+        "type": "ContentType",
+        "createdAt": "2021-12-29T00:03:36.148Z",
+        "updatedAt": "2021-12-29T00:03:39.608Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:03:39.608Z",
+        "firstPublishedAt": "2021-12-29T00:03:39.608Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Footer",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "address",
+          "name": "Address",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": []
+          }
+        },
+        {
+          "id": "instagramLinks",
+          "name": "Instagram Links",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "project",
+        "type": "ContentType",
+        "createdAt": "2021-12-29T00:03:36.151Z",
+        "updatedAt": "2021-12-29T00:03:40.039Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:03:40.039Z",
+        "firstPublishedAt": "2021-12-29T00:03:40.039Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "displayField": "name",
+      "name": "Project",
+      "description": "",
+      "fields": [
+        {
+          "id": "name",
+          "name": "Name",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {}
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "pageHero",
+        "type": "ContentType",
+        "createdAt": "2021-12-29T00:03:36.156Z",
+        "updatedAt": "2021-12-29T00:03:40.935Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:03:40.935Z",
+        "firstPublishedAt": "2021-12-29T00:03:40.935Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "displayField": "title",
+      "name": "Page > Hero",
+      "description": "Hero with image and text",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "heroImage",
+          "name": "Hero Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "heroText",
+          "name": "Hero Text",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "tagline",
+          "name": "Tagline",
+          "type": "Array",
+          "localized": false,
+          "required": false,
+          "validations": [],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": []
+          }
+        },
+        {
+          "id": "companyValue",
+          "name": "Company Value",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "message": "Only bold and italic marks are allowed",
+              "enabledMarks": [
+                "bold",
+                "italic"
+              ]
+            },
+            {
+              "message": "Only table nodes are allowed",
+              "enabledNodeTypes": []
+            },
+            {
+              "nodes": {}
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    }
+  ],
+  "tags": [],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oba9idurcizf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-12-29T00:03:40.563Z",
+        "createdBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-12-29T00:03:41.725Z",
+        "updatedBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "privacyPolicy",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "content",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oba9idurcizf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-12-29T00:03:39.667Z",
+        "createdBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-12-29T00:03:41.702Z",
+        "updatedBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "footer",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "address",
+          "widgetId": "listInput",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "instagramLinks",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oba9idurcizf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-12-29T00:03:40.139Z",
+        "createdBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-12-29T00:03:43.790Z",
+        "updatedBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "project",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "name",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "oba9idurcizf",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2021-12-29T00:03:40.982Z",
+        "createdBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2021-12-29T00:03:41.718Z",
+        "updatedBy": {
+          "sys": {
+            "id": "3GXKkkf73iqo90c1t6Rdn2",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "pageHero",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "heroText",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "tagline",
+          "widgetId": "tagEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "companyValue",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "stmmd71KkiPsoimFROGid",
+        "type": "Entry",
+        "createdAt": "2021-12-29T00:04:00.207Z",
+        "updatedAt": "2021-12-29T00:04:01.490Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:04:01.490Z",
+        "firstPublishedAt": "2021-12-29T00:04:01.490Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "footer"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Footer"
+        },
+        "address": {
+          "en-US": [
+            "Yae Works Limited",
+            "Suite 10-02",
+            "10/F Chinachem Century Tower",
+            "178 Gloucester Road",
+            "Hong Kong"
+          ]
+        },
+        "instagramLinks": {
+          "en-US": "www.instagram.com"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "6DcKnhF80TTsCBqFQrBFu8",
+        "type": "Entry",
+        "createdAt": "2021-12-29T00:04:00.210Z",
+        "updatedAt": "2021-12-29T00:04:00.639Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:04:00.639Z",
+        "firstPublishedAt": "2021-12-29T00:04:00.639Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "pageHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Landing > Second"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3nJL8b4EF4SicvsZFTa6sq"
+            }
+          }
+        },
+        "heroText": {
+          "en-US": "A food and beverage operator that creates concepts to inspire those who seek exciting culinary adventures. Based in Hong Kong, it is committed to providing the best quality, value and service excellence."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "69Ufe4O8T6LWjjxWzQYcmA",
+        "type": "Entry",
+        "createdAt": "2021-12-29T00:04:00.236Z",
+        "updatedAt": "2021-12-29T00:04:01.949Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:04:01.949Z",
+        "firstPublishedAt": "2021-12-29T00:04:01.949Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "pageHero"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Landing > First"
+        },
+        "heroImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1D62AqOVFJsJq2UBYMNLMn"
+            }
+          }
+        },
+        "tagline": {
+          "en-US": [
+            "Adventures",
+            "Excellence",
+            "Quality"
+          ]
+        },
+        "companyValue": {
+          "en-US": {
+            "data": {},
+            "content": [
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "“One of the very nicest things about life is the way we must regularly stop whatever it is we are doing and devote our attention to",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {},
+                    "marks": [
+                      {
+                        "type": "italic"
+                      },
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": " eating",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": ".”",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {},
+                "content": [
+                  {
+                    "data": {},
+                    "marks": [],
+                    "value": "\n― ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {},
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Luciano Pavarotti",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "3z36CKO7mTPBJfSKyoSBk5",
+        "type": "Entry",
+        "createdAt": "2021-12-29T00:04:00.242Z",
+        "updatedAt": "2021-12-29T00:04:02.432Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:04:02.432Z",
+        "firstPublishedAt": "2021-12-29T00:04:02.432Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "privacyPolicy"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Privacy Policy"
+        },
+        "content": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+              {
+                "nodeType": "heading-4",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "COLLECTION, USE & DISCLOSURE",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "We only collect information from you that is necessary for what we do. YAE WORKS LIMITED undertakes to only collect information by lawful and fair means. This means we will never be unreasonably intrusive.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "We collect personal information about individuals:",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "unordered-list",
+                "content": [
+                  {
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "from the individuals themselves through response forms, competitions, our website, correspondence including emails and through verbal communications.",
+                            "marks": [],
+                            "data": {}
+                          }
+                        ],
+                        "data": {}
+                      }
+                    ],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "You need not give personal information about yourself that may be requested by us, however without that information; we may not be able to provide you with the service or information that you have\nrequested. All information collected for internal marketing purposes and will not be released by YAE WORKS LIMITED any third parties unless stated otherwise.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "We collect, hold and use personal information:",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "unordered-list",
+                "content": [
+                  {
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "to promote and market our services",
+                            "marks": [],
+                            "data": {}
+                          }
+                        ],
+                        "data": {}
+                      }
+                    ],
+                    "data": {}
+                  },
+                  {
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "for internal businesses processes such as market research; and where required by law.",
+                            "marks": [],
+                            "data": {}
+                          }
+                        ],
+                        "data": {}
+                      }
+                    ],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "YAE WORKS LIMITED will provide all clients the opportunity to opt out of receiving promotional material either electronically or in hard copy.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "heading-4",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "SECURITY OF INFORMATION",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "We will take all reasonable steps to ensure that the personal information we hold about you is not subject to loss, misuse or unauthorised access or alternation.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "YAE WORKS LIMITED does not provide any other commercial organisation personal details on any individual.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "heading-4",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "ACCESS TO PERSONAL INFORMATION",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "YAE WORKS LIMITED undertakes to respond to any enquiry regarding what information we hold, how we use it and where or how it is disclosed.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "heading-4",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "CONTACT",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "If you have any queries or comments which you would like to make, please fill out the contact form at bottom.",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "2et6xFxVb6tYbbWNHbeaKr",
+        "type": "Entry",
+        "createdAt": "2021-12-29T00:04:00.251Z",
+        "updatedAt": "2021-12-29T00:04:01.063Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-12-29T00:04:01.063Z",
+        "firstPublishedAt": "2021-12-29T00:04:01.063Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "project"
+          }
+        }
+      },
+      "fields": {
+        "name": {
+          "en-US": "Project 1"
+        },
+        "slug": {
+          "en-US": "project-1"
+        },
+        "description": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {},
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Testing",
+                    "marks": [],
+                    "data": {}
+                  }
+                ],
+                "data": {}
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "YsoKW4AhvPFCKvux2GnzK",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.203Z",
+        "updatedAt": "2021-12-29T00:03:59.338Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:59.338Z",
+        "firstPublishedAt": "2021-12-29T00:03:59.338Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Iceland"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/YsoKW4AhvPFCKvux2GnzK/3613eb64aa2a5ae2101b491c438fdf10/iceland03.jpg",
+            "details": {
+              "size": 126788,
+              "image": {
+                "width": 900,
+                "height": 600
+              }
+            },
+            "fileName": "iceland03.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "2hf317UJY21LgAalyf7kgf",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.206Z",
+        "updatedAt": "2021-12-29T00:03:56.159Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:56.159Z",
+        "firstPublishedAt": "2021-12-29T00:03:56.159Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Iceland"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/2hf317UJY21LgAalyf7kgf/0e3406095f74aced402196901bd8f9bd/iceland02.jpg",
+            "details": {
+              "size": 84809,
+              "image": {
+                "width": 900,
+                "height": 600
+              }
+            },
+            "fileName": "iceland02.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "2rXXfCq7OmHHL4rXDp4uMl",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.207Z",
+        "updatedAt": "2021-12-29T00:03:58.176Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:58.176Z",
+        "firstPublishedAt": "2021-12-29T00:03:58.176Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Iceland"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/2rXXfCq7OmHHL4rXDp4uMl/32256f67fb2f55ea4ca53a45c9503651/iceland01.jpg",
+            "details": {
+              "size": 127727,
+              "image": {
+                "width": 900,
+                "height": 600
+              }
+            },
+            "fileName": "iceland01.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "2pzRh27gIiOAHXkonEritC",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.213Z",
+        "updatedAt": "2021-12-29T00:03:58.957Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:58.957Z",
+        "firstPublishedAt": "2021-12-29T00:03:58.957Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Poland"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/2pzRh27gIiOAHXkonEritC/d175147d01a0fa00e0490c907a2dd668/poland1.jpg",
+            "details": {
+              "size": 156784,
+              "image": {
+                "width": 1024,
+                "height": 681
+              }
+            },
+            "fileName": "poland1.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "4PwvtBmFDzNSlYyGOuJCBg",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.215Z",
+        "updatedAt": "2021-12-29T00:03:59.711Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:59.711Z",
+        "firstPublishedAt": "2021-12-29T00:03:59.711Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Spain"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/4PwvtBmFDzNSlYyGOuJCBg/c0803fa36fd620656eae63d16dacb575/spain1.jpg",
+            "details": {
+              "size": 163889,
+              "image": {
+                "width": 1024,
+                "height": 684
+              }
+            },
+            "fileName": "spain1.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "4Iqv52VORq3RHI1JUb6KxQ",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.236Z",
+        "updatedAt": "2021-12-29T00:03:58.566Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:58.566Z",
+        "firstPublishedAt": "2021-12-29T00:03:58.566Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Spain"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/4Iqv52VORq3RHI1JUb6KxQ/94b50192fd80a54ba95d1a73e2474e3c/spain2.jpg",
+            "details": {
+              "size": 111508,
+              "image": {
+                "width": 1024,
+                "height": 683
+              }
+            },
+            "fileName": "spain2.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "38ssQbkyly4IA1ClDMf114",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:44.687Z",
+        "updatedAt": "2021-12-29T00:03:57.786Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:57.786Z",
+        "firstPublishedAt": "2021-12-29T00:03:57.786Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "landing hero large"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/38ssQbkyly4IA1ClDMf114/39295982405546ec3bf79dc778ca818a/pexels-rachel-claire-5490976.jpg",
+            "details": {
+              "size": 458419,
+              "image": {
+                "width": 2400,
+                "height": 1800
+              }
+            },
+            "fileName": "pexels-rachel-claire-5490976.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "3nJL8b4EF4SicvsZFTa6sq",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:46.713Z",
+        "updatedAt": "2021-12-29T00:03:56.602Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:56.602Z",
+        "firstPublishedAt": "2021-12-29T00:03:56.602Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "landing second image"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/3nJL8b4EF4SicvsZFTa6sq/42c70ad45a34e9873dbaaee94fb78d6d/photo-1525610553991-2bede1a236e2_ixlib_rb-1.1_ixid_MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8_auto_format_fit_crop_w_1350_q_80",
+            "details": {
+              "size": 251842,
+              "image": {
+                "width": 1350,
+                "height": 900
+              }
+            },
+            "fileName": "photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "7lDS5OCqQiJI6JWQwfooTy",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:46.718Z",
+        "updatedAt": "2021-12-29T00:03:57.400Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:57.400Z",
+        "firstPublishedAt": "2021-12-29T00:03:57.400Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Poland"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/7lDS5OCqQiJI6JWQwfooTy/d5dc79bfe70638d5f953d3539648177d/poland2.jpg",
+            "details": {
+              "size": 165085,
+              "image": {
+                "width": 1024,
+                "height": 683
+              }
+            },
+            "fileName": "poland2.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "id": "1D62AqOVFJsJq2UBYMNLMn",
+        "type": "Asset",
+        "createdAt": "2021-12-29T00:03:46.771Z",
+        "updatedAt": "2021-12-29T00:03:57.026Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2021-12-29T00:03:57.026Z",
+        "firstPublishedAt": "2021-12-29T00:03:57.026Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "landing-hero"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/oba9idurcizf/1D62AqOVFJsJq2UBYMNLMn/67cf725ce75fc28105ed836d06535d30/landing-hero.jpg",
+            "details": {
+              "size": 293378,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "landing-hero.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "2FjgZAREDnrNnskxA0IUJD",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "3f8889f2-6140-45ff-99c3-be039473b820"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "createdAt": "2021-12-29T00:01:05Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedAt": "2021-12-29T00:01:05Z"
+      }
+    }
+  ],
+  "webhooks": [],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [],
+        "ContentDelivery": [],
+        "Environments": [],
+        "EnvironmentAliases": [],
+        "Tags": []
+      },
+      "sys": {
+        "type": "Role",
+        "id": "2FkWegZSdcEi4X06hDE0Il",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "oba9idurcizf"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "createdAt": "2021-12-29T00:01:05Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3GXKkkf73iqo90c1t6Rdn2"
+          }
+        },
+        "updatedAt": "2021-12-29T00:01:05Z"
+      }
+    }
+  ]
+}

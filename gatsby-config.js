@@ -1,50 +1,68 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- *
- * localhost:8000/__graphql
- */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   siteMetadata: {
-    title: 'Edmund Portfolio',
-    author: 'Edmund',
+    menu: [
+      { name: "THE APARTMENTS", to: "/#apartments" },
+      { name: "VIEWS", to: "/#views" },
+      { name: "LOCAL AREA", to: "/#localarea" },
+      { name: "CONTACT", to: "/#contact" },
+    ],
+    links: {
+      instagram: "https://www.instagram.com/",
+    },
+    locale: "en",
+    title: `The Cheyne Residences`,
+    description: `13 exquisite one & two bedroom riverside apartments coming 2024`,
+    author: `@madebyrise`,
   },
-  /* Your site config here */
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
-        // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
-    'gatsby-plugin-sass',
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'src',
-        path: `${__dirname}/src/`
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        /*id: 'GTM-add_your_tag_here',*/
+        id: 'GTM-MGPBK5M',
+        includeInDevelopment: false
       }
     },
-    'gatsby-plugin-sharp',
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-        plugins: [
-          'gatsby-remark-relative-images',
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 750,
-              linkImagesToOrginal: false
-            }
-          }
-        ]
-      }
-    }
+        endpoint: process.env.MAILCHIMP_ENDPOINT,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `The Chenye Residences`,
+        short_name: `ChenyeResidences`,
+        start_url: `/`,
+        background_color: `#CE652D`,
+        theme_color: `#3182ce`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
+      },
+    },
   ],
 }
