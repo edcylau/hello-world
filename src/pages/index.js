@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 import LandingHero from "../components/Landing/LandingHero"
 import LandingApartments from "../components/Landing/LandingApartments"
 import LandingView from "../components/Landing/LandingView"
-import LandingContact from "../components/Landing/LandingContact"
+import LandingContact from "../components/Landing/LandingContactNetlify"
 import MapContainer from "../components/Landing/LandingMap"
 
 const IndexPage = ({ data }) => {
@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => {
         <LandingView data={data.views} textColor="white" section="views" />
         <LandingApartments data={data.localArea} backgroundColor="white" textColor="themeblack" section="localarea" />
         <MapContainer />
-       {/*<LandingContact />*/}
+        <LandingContact />
     </Layout>
   )
 }
