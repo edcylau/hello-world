@@ -43,7 +43,7 @@ const Footer = () => {
           href="https://brooklandgroup.co.uk/"
           target="_blank"
           rel="noreferrer noopener"
-          className="py-8"
+          className="pt-8"
         >
           <GatsbyImage image={brooklandLogoImage} />
         </a>

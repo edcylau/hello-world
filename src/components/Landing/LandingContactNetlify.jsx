@@ -17,7 +17,7 @@ const LandingContact = () => {
             >
             <source src="/video/sectionContactBackgroundVideo.mp4" type="video/mp4" />
             </video>
-            <div className="md:w-screen bg-[#BABFA6] h-auto md:bg-transparent flex justify-center items-center flex-col xl:px-32 py-20 px-8">
+            <div className="md:w-screen bg-[#BABFA6] h-auto md:h-screen md:bg-transparent flex justify-center items-center flex-col xl:px-32 py-20 px-8">
                     <div className="bg-themepink-light py-12 md:bg-transparent md:py-0">
                         <div className="text-white text-center w-full px-8">
                             <h2 className="w-full my-4">CONTACT US</h2>
@@ -37,8 +37,8 @@ const LandingContact = () => {
                             <button className="text-white bg-themegreen-standard px-4 py-2" type="submit" id="button-addon1">SEND</button>
                         </form>
                     </div>
-                
             </div>
+            <Footer />
         </div>
     );
 };
