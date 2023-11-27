@@ -28,7 +28,7 @@ return (
     <div style={{
         position: "relative",
         width: "100vw",
-        height: "1100px"}} 
+        height: "80vh"}} 
         className="map">
         <Map google={this.props.google} 
         zoom={isMobile? 13 : 16}

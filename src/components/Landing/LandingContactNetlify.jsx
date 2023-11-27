@@ -38,11 +38,6 @@ const LandingContact = () => {
                     </form>
                 </div>
             </div>
-            <div className="absolute -bottom-[20rem] w-full">
-                <Footer />
-
-            </div>
-
         </div>
     );
 };
