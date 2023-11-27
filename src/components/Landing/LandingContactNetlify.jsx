@@ -17,7 +17,7 @@ const LandingContact = () => {
             >
             <source src="/video/sectionContactBackgroundVideo.mp4" type="video/mp4" />
             </video>
-            <div className="md:w-screen bg-themegreen-light md:bg-transparent  flex justify-center items-center h-screen flex-col xl:px-32 py-20">
+            <div className="md:w-screen bg-themegreen-light md:bg-transparent flex justify-center items-center h-screen flex-col xl:px-32 py-20">
                 <div className="bg-themepink-light md:bg-transparent">
                     <div className="text-white text-center w-full px-8">
                         <h2 className="w-full">CONTACT US</h2>
