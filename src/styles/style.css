@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  @apply antialiased bg-themegreen-standard;
+  @apply antialiased bg-[#BABFA6];
   font-family: "GT America Light", sans-serif;
   
 }
@@ -113,3 +113,13 @@ a, p {
 .form-floating {
   @apply w-full;
 }
+
+::placeholder {
+  color: #5C7359;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #5C7359;
+}
+
