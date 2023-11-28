@@ -8,7 +8,7 @@ import Carousel from '../Carousel';
 const LandingView = ({ textColor, data, section}) => {
 
     return (
-        <div className="z-[1] relative block">
+        <div className="z-[1] relative block ">
             <video className="hidden md:block" id="videoId" autoPlay={isMobile ? false : true } playsInline loop muted={true} style={{
                 position: "absolute",
                 width: "100vw",
