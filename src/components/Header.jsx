@@ -10,7 +10,7 @@ const Header = () => {
 
   const useStyles = {
     appBarTransparent: "transition duration-500 ease-in border-black",
-    appBarSolid: "bg-themegreen border-b border-black border-opacity-100 md:bg-opacity-100 transition duration-500 ease-in",
+    appBarSolid: "bg-themegreen-standard border-b border-black border-opacity-100 md:bg-opacity-100 transition duration-500 ease-in",
   }
 
   const navRef = useRef()
