@@ -5,7 +5,7 @@ import Footer from '../Footer';
 const LandingContact = () => {
 
     return (
-        <div className="z-[1] relative block">
+        <div className="z-[1] relative block bg-[#babfa6]">
             <video className="hidden md:block" id="videoId" autoPlay={isMobile ? false : true } playsInline loop muted={true} style={{
                 position: "absolute",
                 width: "100vw",
@@ -17,8 +17,8 @@ const LandingContact = () => {
             >
             <source src="/video/sectionContactBackgroundVideo.mp4" type="video/mp4" />
             </video>
-            <div className="md:w-screen bg-[#BABFA6] h-auto md:h-screen md:bg-transparent flex justify-center items-center flex-col xl:px-32 py-20 px-8">
-                    <div className="bg-themepink-light py-12 md:bg-transparent md:py-0">
+            <div className="xl:w-screen bg-[#BABFA6] h-auto lg:h-screen xl:bg-transparent flex justify-start items-center 2xl:justify-center flex-col py-20 xl:px-32 lg:pb-40 lg:pt-12 xl:pt-20 xl:pb-32 px-8">
+                    <div className="bg-themepink-light py-12 xl:bg-transparent md:py-0">
                         <div className="text-white text-center w-full px-8">
                             <h2 className="w-full my-4">CONTACT US</h2>
                             <p className="w-full my-4">Contact us for more information on The Cheyne Residences.</p>
