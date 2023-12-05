@@ -45,7 +45,7 @@ const Footer = () => {
           rel="noreferrer noopener"
           className="pt-8"
         >
-          <GatsbyImage image={brooklandLogoImage} />
+          <GatsbyImage image={brooklandLogoImage} alt="brookland-logo"/>
         </a>
       </div>
     </div>

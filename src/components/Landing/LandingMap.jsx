@@ -10,7 +10,7 @@ state = {myMarkers: [
 }
 displayMarkers = () => {                                        
     return this.state.myMarkers.map((mark, index) => {                
-        return <Marker id={index}  position={{                            
+        return <Marker id={index}  key={`map-marker-${index}`} position={{                            
             lat: mark.latitude,                                              
             lng: mark.longitude                                                
         }} 

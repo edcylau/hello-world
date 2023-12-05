@@ -28,8 +28,8 @@ export const Carousel = ({ images, section }) => {
       {images && images.map((image,index) => {
         const imageData = getImage(image)
         return (
-          <div className={isMobile ? "h-[30vh]" : "h-[50vh]"} key={`slide_${section}_${index}`}>
-            <GatsbyImage style={isMobile? {width: "100%", height: "50vh"}:{width: "100%", height: "60vh"}} aspectRatio={4/3} objectFit="cover" loading="eager" image={imageData} alt={image.title}/>
+          <div className={isMobile ? "h-auto" : "h-[50vh]"} key={`slide_${section}_${index}`}>
+            <GatsbyImage style={isMobile? {width: "100%", height: "auto"}:{width: "100%", height: "60vh"}} aspectratio={4/3} objectFit={isMobile? "contain" : "cover"} loading="eager" image={imageData} alt={image.title}/>
           </div>
         )
       })}
