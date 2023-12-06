@@ -79,10 +79,8 @@ export const query = graphql`
       sliderImage {
         title
         gatsbyImageData(
-          layout: CONSTRAINED
-          width: 1200
-          height: 800
-          quality: 70
+          layout: FULL_WIDTH
+          quality: 60
           placeholder: BLURRED
           formats: [AUTO,WEBP,AVIF]
         )
