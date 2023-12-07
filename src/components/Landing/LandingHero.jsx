@@ -59,7 +59,7 @@ const LandingHero = ({ content }) => {
             transition={{ duration: 1.5 }}
             className="h-screen w-full flex flex-col justify-center items-center">
             <div className="text-center">
-              <h1 className="uppercase text-white bold" key={`landing-tagline-1`}>12 Exquisite <br className="lg:hidden"/>one  & two bedroom <br /> Riversdie apartments</h1>
+              <h1 className="uppercase text-white bold" key={`landing-tagline-1`}>12 Exquisite <br className="lg:hidden"/>one  & two bedroom <br /> Riverside apartments</h1>
             </div>
           </motion.div>
       <div className="absolute bottom-0 bg-themegreen-light w-full h-[20%] flex justify-center items-center text-white text-center">
