@@ -28,13 +28,13 @@
 .swiper-button-next,
 .swiper-button-prev {
   @apply bg-themepink-standard;
-  width: 35px; /* Adjust the width as needed */
-  height: 35px; /* Adjust the height as needed */
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
   transform: rotate(45deg);
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 
@@ -46,10 +46,18 @@
   margin-left: 1.5rem;
 }
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  transform: rotate(-45deg) !important;
-  right: 3px;
+.swiper-button-next::after {
+  position: relative;
+  transform: rotate(-45deg) scale(1) !important;
+  right: -5px;
+  top: -5px;
   opacity: 1;
 }
 
+.swiper-button-prev::after {
+  position: relative;
+  transform: rotate(-45deg) scale(1) !important;
+  right: 5px;
+  top: 5px;
+  opacity: 1;
+}
