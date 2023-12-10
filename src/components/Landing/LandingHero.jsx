@@ -59,8 +59,8 @@ const LandingHero = ({ content }) => {
               <h1 className="uppercase text-white bold" key={`landing-tagline-1`}>12 Exquisite <br className="lg:hidden"/>one  & two bedroom <br /> Riverside apartments</h1>
             </div>
           </motion.div>
-      <div className="absolute bottom-0 bg-themegreen-light w-full h-[20%] flex justify-center items-center text-white text-center">
-            <h2 className="leading-[50.32px]">WELCOME TO <br className="lg:hidden"/> CHELSEA</h2>
+      <div  className="absolute bottom-0 bg-themegreen-light w-full h-[20%] flex justify-center items-center text-white text-center">
+            <h2 id="apartments" className="leading-[50.32px]">WELCOME TO <br className="lg:hidden"/> CHELSEA</h2>
           </div>
       <div className="flex justify-center">
         <div className="bg-themepink-standard w-8 h-8 absolute -bottom-[1rem] origin-center transform rotate-45"></div>
