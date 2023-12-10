@@ -9,8 +9,8 @@ const Header = () => {
   const [navBackground, setNavBackground] = useState('appBarTransparent')
 
   const useStyles = {
-    appBarTransparent: "transition duration-500 ease-in border-black",
-    appBarSolid: "bg-themegreen-standard border-b border-black border-opacity-100 md:bg-opacity-100 transition duration-500 ease-in",
+    appBarTransparent: "border-black",
+    appBarSolid: "bg-themegreen-standard border-b border-black border-opacity-100 md:bg-opacity-100",
   }
 
   const navRef = useRef()
