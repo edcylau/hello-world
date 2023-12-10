@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-  @apply text-[1.6875rem] md:text-[3rem] lg:text-[4rem];
+  @apply text-[1.6875rem] md:text-[3rem] lg:text-[3.438rem];
   margin-top: 0;
   margin-bottom: 0;
   font-family: "GT America Regular", sans-serif;
