@@ -31,7 +31,7 @@ return (
         height: "80vh"}} 
         className="map">
         <Map google={this.props.google} 
-        zoom={isMobile? 13 : 16}
+        zoom={16}
         styles={mapStyles.styles}
         initialCenter={{lat: 51.48075866026534, lng: -0.1788694502130073}}
         disableDefaultUI= {true}>
