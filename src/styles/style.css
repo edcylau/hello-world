@@ -71,7 +71,7 @@ h5 {
 a, p {
   @apply text-[16.53px] leading-[16.53px] lg:text-[1.563rem] lg:leading-[30px];
   font-family: "sofia-pro", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
 }
 
