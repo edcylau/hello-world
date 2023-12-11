@@ -5,7 +5,7 @@ import Footer from '../Footer';
 const LandingContact = () => {
 
     return (
-        <div className="z-[1] relative w-full overflow-hidden bg-[#c2c6af]">
+        <div id="contact" className="z-[1] relative w-full overflow-hidden bg-[#c2c6af]">
             <video className="hidden lg:block absolute top-0 left-0 min-w-full h-auto -z-10" id="videoId" autoPlay={isMobile ? false : true } playsInline loop muted={true} style={{
                 objectFit: "cover",
             }} 
