@@ -5,7 +5,7 @@ import {isMobile} from 'react-device-detect';
 
 class MapContainer extends Component{
 state = {myMarkers: [
-{latitude: 51.480404, longitude: -0.178902},   
+{latitude: 51.48075866026534, longitude:  -0.1788694502130073},   
 ]
 }
 displayMarkers = () => {                                        
@@ -33,7 +33,7 @@ return (
         <Map google={this.props.google} 
         zoom={isMobile? 13 : 16}
         styles={mapStyles.styles}
-        initialCenter={isMobile ?  {lat: 51.480404, lng: -0.178902} :{ lat: 51.481379, lng: -0.164198}}
+        initialCenter={{lat: 51.48075866026534, lng: -0.1788694502130073}}
         disableDefaultUI= {true}>
         {this.displayMarkers()}</Map>
     </div>
