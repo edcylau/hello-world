@@ -36,15 +36,15 @@ const Footer = () => {
     <div className="bg-themepink-standard py-20">
       <div className="flex flex-col justify-center items-center text-center text-white">
         <h2 className="pb-8">ENQUIRIES</h2>
-        <p className="leading-[138%]">KNIGHT FRANK <br/> 0207 603 22111</p>
-        <a className="uppercase" href="mailto:newhomes@knightfrank.com">newhomes@knightfrank.com</a>
+        <p className="leading-[138%]">KNIGHT FRANK <br/> 0207 603 22111 <br/>
+        <a className="uppercase" href="mailto:newhomes@knightfrank.com">newhomes@knightfrank.com</a></p>
         <a
           href="https://brooklandgroup.co.uk/"
           target="_blank"
           rel="noreferrer noopener"
           className="pt-8"
         >
-          <GatsbyImage className="w-[80%]" image={brooklandLogoImage} alt="brookland-logo"/>
+          <GatsbyImage className="w-[60%] md:w-[80%]" image={brooklandLogoImage} alt="brookland-logo"/>
         </a>
       </div>
     </div>
