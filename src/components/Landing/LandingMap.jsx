@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react'                         
 import mapStyles from '../mapStyles'
-import {isMobile} from 'react-device-detect';
+import {MobileView, BrowserView} from 'react-device-detect';
 
 class MapContainer extends Component{
 state = {myMarkers: [
@@ -25,18 +25,36 @@ displayMarkers = () => {
 }
 render() {
 return (
-    <div style={{
-        position: "relative",
-        width: "100vw",
-        height: "80vh"}} 
-        className="map">
-        <Map google={this.props.google} 
-        zoom={16}
-        styles={mapStyles.styles}
-        initialCenter={{lat: 51.48075866026534, lng: -0.1788694502130073}}
-        disableDefaultUI= {true}>
-        {this.displayMarkers()}</Map>
-    </div>
+    <>
+        <BrowserView>
+            <div style={{
+                position: "relative",
+                width: "100vw",
+                height: "80vh"}} 
+                className="map">
+                <Map google={this.props.google} 
+                zoom={16}
+                styles={mapStyles.styles}
+                initialCenter={{lat: 51.48075866026534, lng: -0.1788694502130073}}
+                disableDefaultUI= {true}>
+                {this.displayMarkers()}</Map>
+            </div>
+        </BrowserView>
+        <MobileView>
+            <div style={{
+                position: "relative",
+                width: "100vw",
+                height: "50vh"}} 
+                className="map">
+                <Map google={this.props.google} 
+                zoom={16}
+                styles={mapStyles.styles}
+                initialCenter={{lat: 51.48075866026534, lng: -0.1788694502130073}}
+                disableDefaultUI= {true}>
+                {this.displayMarkers()}</Map>
+            </div>
+        </MobileView>
+    </>
     );
 }}
 

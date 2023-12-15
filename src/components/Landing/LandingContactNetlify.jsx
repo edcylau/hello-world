@@ -22,13 +22,13 @@ const LandingContact = () => {
                             <form name="contact" className="w-full px-8 flex flex-col justify-center items-center" method="post" data-netlify="true">
                                 <input type="hidden" name="form-name" value="contact"></input>
                                 <div className="form-floating mb-3">
-                                    <input type="text" name="name" className="form-control text-themegreen-standard" id="floatingName" placeholder="NAME *" required />
+                                    <input type="text" name="name" className="form-control placeholder-themegreen-standard" id="floatingName" placeholder="NAME *" required />
                                 </div>
                                 <div className="form-floating mb-3">
-                                    <input type="email" name="_replyto" className="form-control" id="floatingEmail" placeholder="EMAIL *" required />
+                                    <input type="email" name="_replyto" className="form-control placeholder-themegreen-standard" id="floatingEmail" placeholder="EMAIL *" required />
                                 </div>
                                 <div className="form-floating mb-8 2xl:mb-12">
-                                    <textarea className="form-control" name="message" id="floatingMessage" rows="4" required placeholder="MESSAGE" />
+                                    <textarea className="form-control placeholder-themegreen-standard" name="message" id="floatingMessage" rows="4" required placeholder="MESSAGE" />
                                 </div>
                                 <button className="text-white bg-themegreen-standard px-4 py-2" type="submit" id="button-addon1">SEND</button>
                             </form>
