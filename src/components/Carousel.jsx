@@ -10,7 +10,8 @@ import "./Carousel.css";
 export const Carousel = ({ images, section }) => {
   const swiperParams = {
     // ... your swiperParams
-    enabled: true,
+    autoplay: true,
+    lazy: true,
     loop: true,
     navigation: {
       nextEl: '.swiper-button-next',
@@ -20,9 +21,6 @@ export const Carousel = ({ images, section }) => {
       el: ".swiper-pagination",
       type: "bullets",
       clickable: true,
-    },
-    autoplay: {
-      delay: 5000,
     },
   }
 // Style for the image container in BrowserView
@@ -57,7 +55,7 @@ return (
           const imageData = getImage(image);
           return (
             <div style={browserImageContainerStyle} key={`slide_${section}_${index}`}>
-              <GatsbyImage style={browserImageStyle} loading="eager" image={imageData} alt={image.title} />
+              <img style={browserImageStyle} loading="lazy" src={image.url} alt={image.title} />
             </div>
           )
         })}
@@ -69,7 +67,7 @@ return (
           const imageData = getImage(image);
           return (
             <div style={{ width: "100%" }} key={`slide_${section}_${index}`}>
-              <GatsbyImage style={mobileImageStyle} loading="eager" image={imageData} alt={image.title} />
+              <GatsbyImage style={mobileImageStyle} image={imageData} alt={image.title} />
             </div>
           )
         })}

@@ -53,6 +53,7 @@ export const query = graphql`
           placeholder: BLURRED
           formats: [AUTO,WEBP,AVIF]
         )
+        url
       }
     }
     views: contentfulPageCarousel(internalTitle: {eq: "Landing > Views"}) {
@@ -69,6 +70,7 @@ export const query = graphql`
           placeholder: BLURRED
           formats: [AUTO,WEBP,AVIF]
         )
+        url
       }
     }
     localArea: contentfulPageCarousel(internalTitle: {eq: "Landing > Local Area"}) {
@@ -84,6 +86,7 @@ export const query = graphql`
           placeholder: BLURRED
           formats: [AUTO,WEBP,AVIF]
         )
+        url
       }
     }
   }
