@@ -49,6 +49,7 @@ const LandingHero = ({ content }) => {
         objectFit: "cover",
         opacity: "1",
         zIndex: "-1",
+        objectPosition: isMobile ? `-55rem` : `center`
       }} 
       >
       <source src="/video/heroBackgroundVideo.mp4" type="video/mp4" />
@@ -60,7 +61,7 @@ const LandingHero = ({ content }) => {
             </div>
           </motion.div>
       <div  className="absolute bottom-0 bg-themegreen-light w-full h-[20%] flex justify-center items-center text-white text-center">
-            <h2 id="apartments" className="leading-[50.32px]">WELCOME TO <br className="lg:hidden"/> CHELSEA</h2>
+            <h2 id="apartments" className="leading-[50.32px]">WELCOME<br className="lg:hidden"/>TO CHELSEA</h2>
           </div>
       <div className="flex justify-center">
         <div className="bg-themepink-standard w-8 h-8 absolute -bottom-[1rem] origin-center transform rotate-45"></div>
