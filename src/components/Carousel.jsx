@@ -1,8 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Swiper from "react-id-swiper";
-import { GatsbyImage, getImage } from 'gatsby-plugin-image';
-import { isMobile, MobileView, BrowserView } from 'react-device-detect';
+import { MobileView, BrowserView } from 'react-device-detect';
 
 import "swiper/css/swiper.css";
 import "./Carousel.css";
@@ -10,6 +9,7 @@ import "./Carousel.css";
 export const Carousel = ({ images, section }) => {
   const swiperParams = {
     // ... your swiperParams
+    enabled: true,
     autoplay: true,
     lazy: true,
     loop: true,
@@ -52,7 +52,6 @@ return (
     <BrowserView>
       <Swiper {...swiperParams}>
         {images && images.map((image, index) => {
-          const imageData = getImage(image);
           return (
             <div style={browserImageContainerStyle} key={`slide_${section}_${index}`}>
               <img style={browserImageStyle} loading="lazy" src={image.url} alt={image.title} />
@@ -64,10 +63,9 @@ return (
     <MobileView>
       <Swiper {...swiperParams}>
         {images && images.map((image, index) => {
-          const imageData = getImage(image);
           return (
             <div style={{ width: "100%" }} key={`slide_${section}_${index}`}>
-              <GatsbyImage style={mobileImageStyle} image={imageData} alt={image.title} />
+              <img style={mobileImageStyle} src={image.url} alt={image.title} />
             </div>
           )
         })}

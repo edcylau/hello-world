@@ -42,7 +42,7 @@ const LandingHero = ({ content }) => {
 
   return (
     <div className="z-[1] relative block">
-      <video id="videoId" className="object-mobile-position sm:object-center" autoPlay={true} playsInline loop muted={true} style={{
+      <video id="videoId" className="object-lg-position xs:object-mobile-position sm:object-center" autoPlay={true} playsInline loop muted={true} style={{
         position: "absolute",
         width: "100vw",
         height: "100%",
