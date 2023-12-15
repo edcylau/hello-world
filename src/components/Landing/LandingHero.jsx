@@ -54,7 +54,7 @@ const LandingHero = ({ content }) => {
       <source src="/video/heroBackgroundVideo.mp4" type="video/mp4" />
       </video>
           <motion.div
-            className="h-screen w-full flex flex-col justify-center items-center">
+            className="h-[110vh] md:h-screen w-full flex flex-col justify-center items-center">
             <div className="text-center">
               <h1 className="uppercase text-white bold" key={`landing-tagline-1`}>12 Exquisite <br className="lg:hidden"/>one  & two bedroom <br /> Riverside apartments</h1>
             </div>

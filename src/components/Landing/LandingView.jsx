@@ -23,7 +23,7 @@ const LandingView = ({ textColor, data, section}) => {
             <div className={` lg:h-full w-full flex flex-col justify-center items-center pt-20 md:py-12 xl:py-20 4xl:py-32`}>
                 <div className={`carousel-container text-center text-${textColor} w-full md:w-[80%] 3xl:w-[60%] text-white`}>
                     <h2 className="px-4">{data.title}</h2>
-                    <p className="text-[16.53px] leading-[16.53px] lg:text-[1.563rem] lg:leading-[30px] px-4 mt-8 mb-20">{data.description.description}</p>
+                    <p className="px-8 md:px-4 mt-8 mb-20">{data.description.description}</p>
                     <div className="h-full">
                         <Carousel section={section} images={data.sliderImage} />
                     </div>
