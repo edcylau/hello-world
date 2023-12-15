@@ -42,14 +42,13 @@ const LandingHero = ({ content }) => {
 
   return (
     <div className="z-[1] relative block">
-      <video id="videoId" autoPlay={true} playsInline loop muted={true} style={{
+      <video id="videoId" className="object-mobile-position sm:object-center" autoPlay={true} playsInline loop muted={true} style={{
         position: "absolute",
         width: "100vw",
         height: "100%",
         objectFit: "cover",
         opacity: "1",
         zIndex: "-1",
-        objectPosition: isMobile ? `-55rem` : `center`
       }} 
       >
       <source src="/video/heroBackgroundVideo.mp4" type="video/mp4" />

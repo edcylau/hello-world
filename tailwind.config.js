@@ -414,6 +414,8 @@ module.exports = {
       'right-bottom': 'right bottom',
       'right-top': 'right top',
       top: 'top',
+      'mobile-position': '-55rem top',
+      'lg-position': '-36rem top',
     },
     opacity: {
       '0': '0',
