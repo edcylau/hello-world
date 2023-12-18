@@ -82,7 +82,7 @@ let styles = [
             "elementType": "geometry.fill",
             "stylers": [
                 {
-                    "color": "#edada9"
+                    "color": "#f0d3d1"
                 }
             ]
         },
@@ -91,7 +91,7 @@ let styles = [
             "elementType": "geometry.fill",
             "stylers": [
                 {
-                    "color": "#edada9"
+                    "color": "#f0d3d1"
                 }
             ]
         },
@@ -100,7 +100,7 @@ let styles = [
             "elementType": "geometry.fill",
             "stylers": [
                 {
-                    "color": "#edada9"
+                    "color": "#f0d3d1"
                 }
             ]
         },
@@ -109,7 +109,7 @@ let styles = [
             "elementType": "geometry.stroke",
             "stylers": [
                 {
-                    "color": "#edada9"
+                    "color": "#f0d3d1"
                 }
             ]
         },
