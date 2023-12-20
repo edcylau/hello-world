@@ -41,7 +41,7 @@ module.exports = {
       },
       themeblack: "#253E38",
       themepink: {
-        standard: "#e18184",
+        standard: "#e18084",
         light: "#EFB5B1"
       },
       gray: {
