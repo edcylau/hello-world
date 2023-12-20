@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Swiper from "react-id-swiper";
-import { MobileView, BrowserView } from 'react-device-detect';
+import { MobileOnlyView, BrowserView } from 'react-device-detect';
 
 import "swiper/css/swiper.css";
 import "./Carousel.css";
@@ -62,7 +62,7 @@ return (
         })}
       </Swiper>
     </BrowserView>
-    <MobileView>
+    <MobileOnlyView>
       <Swiper {...swiperParams}>
         {images && images.map((image, index) => {
           return (
@@ -72,7 +72,7 @@ return (
           )
         })}
       </Swiper>
-    </MobileView>
+    </MobileOnlyView>
   </>
 )
 }

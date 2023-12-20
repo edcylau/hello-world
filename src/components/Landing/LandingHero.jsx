@@ -1,7 +1,6 @@
 import React from "react"
 import { BLOCKS, MARKS } from '@contentful/rich-text-types';
 import { motion } from "framer-motion"
-import { BrowserView, MobileView } from "react-device-detect";
 import { renderRichText } from "gatsby-source-contentful/rich-text"
 import { useStaticQuery, graphql } from "gatsby";
 import { getImage, GatsbyImage } from "gatsby-plugin-image"

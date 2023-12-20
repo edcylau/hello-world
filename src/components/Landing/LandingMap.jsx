@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react'                         
 import mapStyles from '../mapStyles'
-import {MobileView, BrowserView} from 'react-device-detect';
+import {MobileOnlyView, BrowserView} from 'react-device-detect';
 
 class MapContainer extends Component{
 state = {myMarkers: [
@@ -40,7 +40,7 @@ return (
                 {this.displayMarkers()}</Map>
             </div>
         </BrowserView>
-        <MobileView>
+        <MobileOnlyView>
             <div style={{
                 position: "relative",
                 width: "100vw",
@@ -53,7 +53,7 @@ return (
                 disableDefaultUI= {true}>
                 {this.displayMarkers()}</Map>
             </div>
-        </MobileView>
+        </MobileOnlyView>
     </>
     );
 }}
