@@ -10,7 +10,9 @@ export const Carousel = ({ images, section }) => {
   const swiperParams = {
     // ... your swiperParams
     enabled: true,
-    autoplay: true,
+    autoplay: {
+      delay: 6000
+    },
     lazy: true,
     loop: true,
     navigation: {
