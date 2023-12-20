@@ -10,6 +10,7 @@ export const Carousel = ({ images, section }) => {
   const swiperParams = {
     // ... your swiperParams
     enabled: true,
+    effect: 'fade',
     autoplay: {
       delay: 6000
     },
