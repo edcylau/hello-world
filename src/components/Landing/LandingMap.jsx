@@ -29,7 +29,6 @@ return (
         <BrowserView>
             <div style={{
                 position: "relative",
-                width: "100vw",
                 height: "80vh"}} 
                 className="map">
                 <Map google={this.props.google} 
@@ -43,7 +42,6 @@ return (
         <MobileOnlyView>
             <div style={{
                 position: "relative",
-                width: "100vw",
                 height: "50vh"}} 
                 className="map">
                 <Map google={this.props.google} 
