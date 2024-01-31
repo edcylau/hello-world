@@ -22,6 +22,7 @@ const Seo = ({ title, description, image }) => {
     <>
       <title>{`${title} | ${siteTitle}`}</title>
       <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <link rel="canonical" href="https://cheyneresidences.com/" />
       <meta name="description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
